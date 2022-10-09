@@ -1,0 +1,49 @@
+.Content {
+    flex: 4;
+}
+
+.Content__baucua {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.Content__baucua-img {
+    background-image: url("/src/assets/imgs/app/bau-cua.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60rem;
+    height: calc(60rem * 0.6945);
+}
+
+.Content__baucua-choose {
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+
+.Content__baucua-square {
+    display: inline-block;
+    width: 19.35rem;
+    height: 19.35rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Content__baucua-square:hover {
+    background-color: rgba($color: #ccc, $alpha: 0.8);
+}
+
+.Content--chosen-square {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Content--chosen-square span span {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    line-height: 80px;
+}

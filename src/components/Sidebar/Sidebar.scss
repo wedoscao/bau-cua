@@ -1,0 +1,39 @@
+.Sidebar {
+    min-width: 31.25rem;
+    max-width: 31.25rem;
+    background-color: rgb(231, 231, 231);
+    box-sizing: border-box;
+    border: rgb(233, 79, 79) 4px solid;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    overflow: hidden;
+}
+
+.Sidebar__result-list {
+    list-style: none;
+}
+
+.Sidebar__result-item {
+    margin-top: 0.8rem;
+    font-size: 24px;
+}
+
+.Sidebar__result-time {
+    color: white;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.Sidebar__result-alert {
+    font-weight: bold;
+}
+
+.Sidebar__result-alert--win {
+    color: rgb(49, 255, 49);
+}
+
+.Sidebar__result-alert--lose {
+    color: rgb(233, 79, 79);
+}

@@ -49,16 +49,16 @@ export default function ContentHeader() {
     };
     return (
         <div className="ContentHeader">
-            <audio src="/src/assets/sounds/dice-roll.mp3" />
+            <audio src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/sounds/dice-roll.mp3?raw=true" />
             <ul className="ContentHeader__imgs">
                 <li className="ContentHeader__img">
-                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/1-cop.jpg" />
+                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/1-cop.jpg?raw=true" />
                 </li>
                 <li className="ContentHeader__img">
-                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/2-bau.jpg" />
+                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/2-bau.jpg?raw=true" />
                 </li>
                 <li className="ContentHeader__img">
-                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/3-ga.jpg" />
+                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/3-ga.jpg?raw=true" />
                 </li>
             </ul>
             <div className="ContentHeader__control">

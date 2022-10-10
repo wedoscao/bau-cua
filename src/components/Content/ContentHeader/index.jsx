@@ -52,13 +52,13 @@ export default function ContentHeader() {
             <audio src="/src/assets/sounds/dice-roll.mp3" />
             <ul className="ContentHeader__imgs">
                 <li className="ContentHeader__img">
-                    <img src="/src/assets/imgs/app/1-cop.jpg" />
+                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/1-cop.jpg" />
                 </li>
                 <li className="ContentHeader__img">
-                    <img src="/src/assets/imgs/app/2-bau.jpg" />
+                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/2-bau.jpg" />
                 </li>
                 <li className="ContentHeader__img">
-                    <img src="/src/assets/imgs/app/3-ga.jpg" />
+                    <img src="https://github.com/wedoscao/bau-cua/blob/main/src/assets/imgs/app/3-ga.jpg" />
                 </li>
             </ul>
             <div className="ContentHeader__control">
